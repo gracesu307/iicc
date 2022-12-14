@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	console.log($(document));
-	var last_minute = 20;
+	var last_minute = 0;
 	var last_second = 0;
 	var m = [];
 	var s = [];
