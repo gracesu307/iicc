@@ -134,6 +134,7 @@ $(document).ready(function(){
 	$(".reset11").click(function(){
 		m[0][0] = 0;
 		s[0][0] = 0;
+		show_time();
 	});
 
 	$(".card12").click(function(){
@@ -143,6 +144,7 @@ $(document).ready(function(){
 	$(".reset12").click(function(){
 		m[0][1] = 0;
 		s[0][1] = 0;
+		show_time();
 	});
 
 	$(".card13").click(function(){
@@ -153,6 +155,7 @@ $(document).ready(function(){
 	$(".reset13").click(function(){
 		m[0][2] = 0;
 		s[0][2] = 0;
+		show_time();
 	});
 
 	$(".card14").click(function(){
@@ -162,6 +165,7 @@ $(document).ready(function(){
 	$(".reset14").click(function(){
 		m[0][3] = 0;
 		s[0][3] = 0;
+		show_time();
 	});
 
 
