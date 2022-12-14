@@ -56,7 +56,8 @@ body{
 	justify-content: right;
 }
 .addarea{
-	height: calc(50vh - 60px);
+	height: calc(50vh - 80px);
+	padding-top: 20px;
 }
 .score{
 	margin-left: 20px;
@@ -116,9 +117,12 @@ input{
 	text-shadow: 1px 1px;
 }
 .addcard{
-	width: 500px;
+	width: 400px;
 	background-color: #F0F7F2;
-	margin: 10px;
+	margin: 5px;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
 	padding: 10px;
 	border-radius: 10px;
 }

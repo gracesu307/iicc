@@ -125,6 +125,54 @@ $(document).ready(function(){
  			$(".score1").html(score1);
 		}
 	});
+	$("#enter2").click(function(){
+		var s2 = $("#input2").val();
+		$("#input2").val("");
+		if(s2[0] == '+'){
+ 			var s = s2.slice(1);
+ 			s = parseInt(s);
+ 			score2 += s;
+ 			$(".score2").html(score2);
+		}
+		if(s2[0] == '-'){
+			var s = s2.slice(1);
+ 			s = parseInt(s);
+ 			score2 -= s;
+ 			$(".score2").html(score2);
+		}
+	});
+	$("#enter3").click(function(){
+		var s3 = $("#input3").val();
+		$("#input3").val("");
+		if(s3[0] == '+'){
+ 			var s = s3.slice(1);
+ 			s = parseInt(s);
+ 			score3 += s;
+ 			$(".score3").html(score3);
+		}
+		if(s3[0] == '-'){
+			var s = s3.slice(1);
+ 			s = parseInt(s);
+ 			score3 -= s;
+ 			$(".score3").html(score3);
+		}
+	});
+	$("#enter4").click(function(){
+		var s4 = $("#input4").val();
+		$("#input4").val("");
+		if(s4[0] == '+'){
+ 			var s = s4.slice(1);
+ 			s = parseInt(s);
+ 			score4 += s;
+ 			$(".score4").html(score4);
+		}
+		if(s4[0] == '-'){
+			var s = s4.slice(1);
+ 			s = parseInt(s);
+ 			score4 -= s;
+ 			$(".score4").html(score4);
+		}
+	});
 
 
 	$(".card11").click(function(){
@@ -165,6 +213,132 @@ $(document).ready(function(){
 	$(".reset14").click(function(){
 		m[0][3] = 0;
 		s[0][3] = 0;
+		show_time();
+	});
+
+
+	$(".card21").click(function(){
+		m[1][0] += 3;
+		show_time();
+	});
+	$(".reset21").click(function(){
+		m[1][0] = 0;
+		s[1][0] = 0;
+		show_time();
+	});
+
+	$(".card22").click(function(){
+		m[1][1] += 3;
+		show_time();
+	});
+	$(".reset22").click(function(){
+		m[1][1] = 0;
+		s[1][1] = 0;
+		show_time();
+	});
+
+	$(".card23").click(function(){
+		m[1][2] += 3;
+		show_time();
+	});
+
+	$(".reset23").click(function(){
+		m[1][2] = 0;
+		s[1][2] = 0;
+		show_time();
+	});
+
+	$(".card24").click(function(){
+		m[1][3] += 3;
+		show_time();
+	});
+	$(".reset24").click(function(){
+		m[1][3] = 0;
+		s[1][3] = 0;
+		show_time();
+	});
+
+
+	$(".card31").click(function(){
+		m[2][0] += 3;
+		show_time();
+	});
+	$(".reset31").click(function(){
+		m[2][0] = 0;
+		s[2][0] = 0;
+		show_time();
+	});
+
+	$(".card32").click(function(){
+		m[2][1] += 3;
+		show_time();
+	});
+	$(".reset32").click(function(){
+		m[2][1] = 0;
+		s[2][1] = 0;
+		show_time();
+	});
+
+	$(".card33").click(function(){
+		m[2][2] += 3;
+		show_time();
+	});
+
+	$(".reset33").click(function(){
+		m[2][2] = 0;
+		s[2][2] = 0;
+		show_time();
+	});
+
+	$(".card34").click(function(){
+		m[2][3] += 3;
+		show_time();
+	});
+	$(".reset34").click(function(){
+		m[2][3] = 0;
+		s[2][3] = 0;
+		show_time();
+	});
+
+
+	$(".card41").click(function(){
+		m[3][0] += 3;
+		show_time();
+	});
+	$(".reset41").click(function(){
+		m[3][0] = 0;
+		s[3][0] = 0;
+		show_time();
+	});
+
+	$(".card42").click(function(){
+		m[3][1] += 3;
+		show_time();
+	});
+	$(".reset42").click(function(){
+		m[3][1] = 0;
+		s[3][1] = 0;
+		show_time();
+	});
+
+	$(".card43").click(function(){
+		m[3][2] += 3;
+		show_time();
+	});
+
+	$(".reset43").click(function(){
+		m[3][2] = 0;
+		s[3][2] = 0;
+		show_time();
+	});
+
+	$(".card44").click(function(){
+		m[3][3] += 3;
+		show_time();
+	});
+	$(".reset44").click(function(){
+		m[3][3] = 0;
+		s[3][3] = 0;
 		show_time();
 	});
 
